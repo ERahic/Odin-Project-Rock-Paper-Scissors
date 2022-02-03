@@ -1,0 +1,121 @@
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    display: grid;
+    text-align: center;
+}
+
+h2 {
+    display: grid;
+    text-align: center;
+}
+
+h3 {
+    display: grid;
+    text-align: center;
+}
+
+h4 {
+    display: grid;
+    text-align: center;
+}
+
+.objects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+.rock-button {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 100ms;
+}
+
+.rock-button:hover {
+    background-color: rgb(247, 93, 93);
+}
+
+.rock-button:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.paper-button {
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 100ms;
+}
+
+.paper-button:hover {
+    background-color: rgb(124, 255, 124);
+}
+
+.paper-button:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.scissors-button {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px darkgray;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: 100ms;
+}
+
+.scissors-button:hover {
+    background-color: rgb(89, 89, 255);
+}
+
+.scissors-button:active {
+    box-shadow: 0 2px darkgray;
+    transform: translateY(6px);
+}
+
+.score-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.player-points, .computer-points {
+    display: grid;
+    padding: 1rem;
+}
+
+.result{
+    display: grid;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
