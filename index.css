@@ -15,16 +15,19 @@ h1 {
 h2 {
     display: grid;
     text-align: center;
+    font-size: 2rem;
 }
 
 h3 {
     display: grid;
     text-align: center;
+    font-size: 2rem;
 }
 
 h4 {
     display: grid;
     text-align: center;
+    font-size: 2rem;
 }
 
 .objects-container {
@@ -45,12 +48,13 @@ h4 {
 .rock-button {
     background-color: red;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px darkgray;
     cursor: pointer;
     margin-bottom: 1rem;
     transition: 100ms;
+    font-size: 2rem;
 }
 
 .rock-button:hover {
@@ -65,12 +69,13 @@ h4 {
 .paper-button {
     background-color: green;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px darkgray;
     cursor: pointer;
     margin-bottom: 1rem;
     transition: 100ms;
+    font-size: 2rem;
 }
 
 .paper-button:hover {
@@ -85,12 +90,13 @@ h4 {
 .scissors-button {
     background-color: blue;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px darkgray;
     cursor: pointer;
     margin-bottom: 1rem;
     transition: 100ms;
+    font-size: 2rem;
 }
 
 .scissors-button:hover {
@@ -106,16 +112,47 @@ h4 {
     display: grid;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
+    font-size: 2rem;
 }
 
 .player-points, .computer-points {
     display: grid;
     padding: 1rem;
+    
 }
 
 .result{
     display: grid;
     text-align: center;
+    font-size: 2rem;
+}
+
+.endGame {
+    display: grid;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.rematch {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    color: white;
     padding: 1rem;
     font-size: 2rem;
+    cursor: pointer;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-top: 6rem;
+    transition: 100ms;
+    box-shadow: 0 5px darkgray;
+    border-radius: 10px;
+}
+
+.rematch:hover {
+    background-color: rgb(167, 50, 167);
+}
+
+.rematch:active {
+    transform: translateY(10px);
 }
